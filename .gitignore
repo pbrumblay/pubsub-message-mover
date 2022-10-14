@@ -1,0 +1,26 @@
+#       OS
+.DS_Store
+.idea
+Thumbs.db
+tmp/
+temp/
+
+#     Node.js
+node_modules
+
+#       NYC
+coverage
+*.lcov
+.nyc_output
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# dotenv environment variables file
+.env
+.env.test

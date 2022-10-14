@@ -1,0 +1,9 @@
+{
+  "*.md": "prettier --write",
+  "./.xo-config.json": "prettier --write",
+  "./package.json": [
+    "npmPkgJsonLint ./package.json",
+    "prettier --write --plugin=prettier-plugin-packagejson ./package.json"
+  ],
+  "*.js": "xo --fix"
+}
