@@ -34,7 +34,7 @@ export async function moveMessages(options) {
     const ackIds = [];
     const publishPromises = [];
     if (!response.receivedMessages || response.receivedMessages.length === 0) {
-      logger.warning(
+      logger.warn(
         `No messages found on source subscription: ${request.subscription}`,
       );
       break;
